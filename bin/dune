@@ -1,0 +1,5 @@
+(executable
+   (name MyLibTest)
+   (public_name MyLibTest)
+   (libraries  rely-example)
+)

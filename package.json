@@ -2,6 +2,12 @@
   "name": "rely-example",
   "version": "1.0.0",
   "license": "MIT",
+  "esy": {
+    "build": "refmterr dune build -p #{self.name}"
+  },
+  "scripts": {
+    "test": "esy x MyLibTest"
+  },
   "dependencies": {
     "@esy-ocaml/reason": ">= 3.4.0 < 3.5.0",
     "@opam/dune": "*",

@@ -1,0 +1,6 @@
+(library
+   (name RelyExample)
+   (public_name rely-example)
+   (ocamlopt_flags -linkall -g)
+   (libraries rely.lib )
+)
